@@ -1,0 +1,26 @@
+#content{
+    width: 70%;
+    margin-left: 26%;
+    margin-top: 100px;
+    overflow-y: scroll;
+    max-height: 1100px;
+    background-color: rgba(204, 204, 204, 0.13);
+    padding: 32px;
+    margin-bottom: 2000px;
+}
+
+#content h1 {
+    color: rgb(0, 0, 109);
+}
+
+#content p {
+    font-size: large;
+}
+
+#content::-webkit-scrollbar {
+    width: 20px;
+}
+  
+#content::-webkit-scrollbar-thumb {
+    background: #85C1E9;
+}
